@@ -4,7 +4,7 @@
   "description": "An exercise for an introduction to React",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel ./src/index.html",
     "lint": "eslint --fix src/**/*.{js,jsx}",
     "format": "prettier --write \"*.{js, jsx, json, css}\""
   },
@@ -15,6 +15,8 @@
   "author": "Alvaro Yuste (alvaroyuste.com)",
   "license": "MIT",
   "dependencies": {
+    "classnames": "^2.3.2",
+    "prop-types": "^15.8.1",
     "react": "^16.14.0",
     "react-dom": "^16.8.6"
   },
@@ -47,7 +49,7 @@
   "prettier": {
     "semi": true,
     "singleQuote": true,
-    "jsxSingleQuote": true
+    "trailingComma": "all"
   },
   "repository": {
     "type": "git",
